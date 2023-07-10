@@ -34,9 +34,9 @@ body{
     margin-right: 10px;
 }
 
-.shopNow-btn{
+.btn{
     margin-top: 15px;
-    padding: 10px 15px;
+    padding: 10px 20px;
     background-color: #E55473;
     color: white;
     border: 0px;
@@ -103,3 +103,66 @@ h5{
     text-decoration: underline;
 }
 
+.icons{
+    /* display: flex; */
+    background-color: #F4F4F4;
+    margin-top: 100px;
+    padding: 50px;
+    margin-left: 200px;
+    margin-right: 200px;
+    justify-content: center;
+}
+.icon-section{
+    
+    display: flex;
+    justify-content: space-around;
+}   
+icon-pera div p{
+    display: flex;
+    text-align: center;
+    
+    padding: 5px 30px;
+}
+.icon-pera{
+    justify-content: space-between;
+    display: flex;
+    margin-top: 10px;
+    font-size: 14px;
+}
+.icon-pera-1{
+    margin-left: 15px;
+}
+.icon-pera-2{
+    padding: 0px;
+}
+.icon-pera-3{
+    margin-right: 85px;
+}
+
+.deal-section{
+    display: flex;
+    margin-top: 80px;
+    background-color: #FEF6F8;
+    height: 400px;
+    justify-content: space-around;
+    
+    
+}
+.deal-img{
+    height: 250px;
+    width: 200px;
+}
+.div-image{
+   text-align: center;
+    margin-top: 75px; 
+    margin-right: 120px;
+}
+.deal-title{
+    text-align: center;
+    margin-top: 150px;
+    width: 520px;
+    margin-left: 150px;
+}
+.deal-class{
+    margin-top: 15px;
+}
