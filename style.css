@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/* body{
+    overflow-x: hidden;
+} */
+.banner-section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+    background-color: #FCEEF1;
+}
+
+
+.left-div{
+    margin-left: 220px;
+}
+
+.right-div{
+    margin-right: 60px;
+}
+
+
+.banner-header{
+    margin-right: 150px;
+    font-size: 40px;
+}
+
+.banner-pera{
+    margin-top: 20px;
+    margin-right: 10px;
+}
+
+.shopNow-btn{
+    margin-top: 15px;
+    padding: 10px 15px;
+    background-color: #E55473;
+    color: white;
+    border: 0px;
+    border-radius: 5px;
+}
+
+.banner-flower{
+    width: 500px;
+    padding-top: 30px;
+    padding-right: 70px;  
+}
+
+
