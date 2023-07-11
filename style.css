@@ -5,6 +5,23 @@
 body{
     font-family: 'Lato', sans-serif;
 }
+
+/* same-items */
+.btn{
+    margin-top: 15px;
+    padding: 10px 20px;
+    background-color: #E55473;
+    color: white;
+    border: 0px;
+    border-radius: 5px;
+}
+.btn:hover{
+    border: gray 1px solid;
+    cursor: pointer;
+}
+
+
+/* banner section start here */
 .banner-section{
     display: flex;
     justify-content: space-between;
@@ -13,7 +30,6 @@ body{
     width: 100%;
     background-color: #FCEEF1;
 }
-
 
 .left-div{
     margin-left: 220px;
@@ -30,20 +46,12 @@ body{
     color: #272727;
 }
 
-.banner-pera{
+.banner-description{
     margin-top: 20px;
     margin-right: 10px;
     color: rgba(39, 39, 39, 0.60);
 }
 
-.btn{
-    margin-top: 15px;
-    padding: 10px 20px;
-    background-color: #E55473;
-    color: white;
-    border: 0px;
-    border-radius: 5px;
-}
 
 .banner-flower{
     width: 500px;
@@ -52,6 +60,7 @@ body{
 }
 
 
+/* Featured section start here */
 .Featured-section{
     margin-top: 100px;
 }
@@ -60,11 +69,12 @@ body{
     text-align: center;
     color: #272727;
 }
-.featured-pera{
+.featured-description{
     margin: 10px 400px 0px 400px;
     color: rgba(39, 39, 39, 0.60);
     
 }
+
 .featured-img{
     margin-top: 40px;
     display: flex;
@@ -80,8 +90,12 @@ body{
     width: 290px;
     
 }
+.featured-img-1:hover , .featured-img-2:hover, .featured-img-3:hover{
+    box-shadow: 3px 3px 5px lightblue;
+}
+
 .featured-img-2{
-    background-color: #F2DEE7;
+    background-color: #D9EFF1;
     border-top-left-radius: 250px;
     border-top-right-radius: 250px;
     height: 280px;
@@ -89,7 +103,7 @@ body{
 }
 .featured-img-3{
     margin-right: 180px;
-    background-color: #F2DEE7;
+    background-color: #E3EBDB;
     border-top-left-radius: 250px;
     border-top-right-radius: 250px;
     height: 280px;
@@ -107,7 +121,13 @@ h5{
     text-decoration: underline;
     color: #272727;
 }
+h5:hover{
+    font-size: 15px;
+    cursor: pointer;
+}
 
+
+/* icons section start here */
 .icons{
     
     background-color: #F4F4F4;
@@ -124,42 +144,46 @@ h5{
 }   
 
 
-.icon-pera{
+.icon-description{
     justify-content: space-between;
     display: flex;
     margin-top: 10px;
     font-size: 14px;
     color: rgba(39, 39, 39, 0.80);
 }
+.icon-description p:hover{
+    font-weight: bold;
+    cursor: pointer;
+}
 
 .icon-image{
     height: 50px;
     width: 50px;
 }
-.icon-pera-1{
+.icon-description-1{
     margin-left: 30px;
 }
-.icon-pera-2{
+.icon-description-2{
     padding: 0px;
 }
-.icon-pera-3{
+.icon-description-3{
     margin-right: 85px;
 }
 
-.deal-section{
+
+/* deal section1 start here */
+.deal-section-1{
     display: flex;
     margin-top: 80px;
     background-color: #FEF6F8;
     height: 400px;
-    justify-content: space-around;
-    
-    
+    justify-content: space-around;   
 }
 .deal-img{
     height: 250px;
     width: 200px;
 }
-.div-image{
+.deal-section-image{
    text-align: center;
     margin-top: 75px; 
     margin-right: 120px;
@@ -174,49 +198,56 @@ h5{
 .span-1{
     color: #E75E7B;
 }
-.deal-class{
+.deal-description{
     margin-top: 15px;
     color: rgba(39, 39, 39, 0.60);
 }
 
 
-
-.instragram , .Facebook, .Most-selling-flowers{
+/* instagram/Facebook/Most-selling-flowers section start here */
+.instagram , .Facebook, .Most-selling-flowers{
     text-align: center;
     margin-top: 60px;
 }
-.instragram-title , .Facebook-title, .Most-selling-flowers-title{
+.instagram-title , .Facebook-title, .Most-selling-flowers-title{
    width: 450px;
    margin: 0 auto;
    
    
 }
-.instragram-heading, .Facebook-heading, .Most-selling-flowers-heading{
+.instagram-heading, .Facebook-heading, .Most-selling-flowers-heading{
     color: #272727;
 }
-#instra-pera, #Facebook-pera, #Most-selling-flowers-pera{
+#insta-description, #Facebook-description, #Most-selling-flowers-description{
     margin-top: 15px;
     color: rgba(39, 39, 39, 0.60);
 }
-.instragram-img ,.Facebook-img, .Most-selling-flowers-img{
+.instagram-img ,.Facebook-img, .Most-selling-flowers-img{
     display: flex;
     justify-content: space-around;
     margin: 40px 185px 0px 185px; 
     
 }
-.instragram-img img , .Facebook-img img, .Most-selling-flowers-img img{
+.instagram-img img , .Facebook-img img, .Most-selling-flowers-img img{
     height: 250px;
     width: 220px;
 
     margin-bottom: 65px;
 }
+.hover-cls:hover{
+    font-size: 25px;
+    text-decoration: underline;
+    cursor: pointer;
+}
+.img-hover-class:hover{
+    box-shadow: 3px 3px 5px lightblue;
+}
 
-
-
+/* deals section2 start here */
 .container {
     position: relative;
-    max-width: 955px; /* Maximum width */
-    margin: 0 auto; /* Center it */
+    max-width: 955px; 
+    margin: 0 auto;
   }
   
 .container .content {
@@ -228,6 +259,8 @@ h5{
     text-align: center;
     margin-bottom: 80px;
 }
+
+
 .deals-desc{
     font-size: 14px;
     margin-top: 15px;
@@ -246,9 +279,13 @@ h5{
     border: 0px;
     margin-left: 5px;
 }
+.Subscribe-btn:hover{
+    border: gray 1px solid;
+    cursor: pointer;
+}
 
   
-
+/* footer start here  */
 .footer{
     height: 400px;
     background-color: black;
@@ -262,15 +299,16 @@ h5{
 .footer-heading{
     padding-top: 150px;
     margin-bottom: 20px;
+    font-size: 35px;
 }
-.footer-pera{
+.footer-description{
     width: 520px;
     margin: 0 auto;
     margin-bottom: 20px;
     color: rgba(255, 255, 255, 0.90);
     
 }
-.footer-pera-2{
+.footer-description-2{
     color: rgba(255, 255, 255, 0.40);
     font-size: 14px;
 }
