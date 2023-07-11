@@ -27,11 +27,13 @@ body{
 .banner-header{
     margin-right: 150px;
     font-size: 40px;
+    color: #272727;
 }
 
 .banner-pera{
     margin-top: 20px;
     margin-right: 10px;
+    color: rgba(39, 39, 39, 0.60);
 }
 
 .btn{
@@ -51,18 +53,20 @@ body{
 
 
 .Featured-section{
-    margin-top: 80px;
+    margin-top: 100px;
 }
 
 .featured-title{
     text-align: center;
+    color: #272727;
 }
 .featured-pera{
     margin: 10px 400px 0px 400px;
+    color: rgba(39, 39, 39, 0.60);
     
 }
 .featured-img{
-    margin-top: 30px;
+    margin-top: 40px;
     display: flex;
     justify-content: space-around;
     /* width: 250px; */
@@ -101,10 +105,11 @@ h5{
     text-align: center;
     margin-top: 10px;
     text-decoration: underline;
+    color: #272727;
 }
 
 .icons{
-    /* display: flex; */
+    
     background-color: #F4F4F4;
     margin-top: 100px;
     padding: 50px;
@@ -117,20 +122,22 @@ h5{
     display: flex;
     justify-content: space-around;
 }   
-icon-pera div p{
-    display: flex;
-    text-align: center;
-    
-    padding: 5px 30px;
-}
+
+
 .icon-pera{
     justify-content: space-between;
     display: flex;
     margin-top: 10px;
     font-size: 14px;
+    color: rgba(39, 39, 39, 0.80);
+}
+
+.icon-image{
+    height: 50px;
+    width: 50px;
 }
 .icon-pera-1{
-    margin-left: 15px;
+    margin-left: 30px;
 }
 .icon-pera-2{
     padding: 0px;
@@ -162,29 +169,42 @@ icon-pera div p{
     margin-top: 150px;
     width: 520px;
     margin-left: 150px;
+    color: #272727;
+}
+.span-1{
+    color: #E75E7B;
 }
 .deal-class{
     margin-top: 15px;
+    color: rgba(39, 39, 39, 0.60);
 }
 
 
 
-.instragram , .Facebook{
+.instragram , .Facebook, .Most-selling-flowers{
     text-align: center;
     margin-top: 60px;
 }
-.instragram-title , .Facebook-title{
+.instragram-title , .Facebook-title, .Most-selling-flowers-title{
    width: 450px;
    margin: 0 auto;
    
+   
 }
-.instragram-img ,.Facebook-img{
+.instragram-heading, .Facebook-heading, .Most-selling-flowers-heading{
+    color: #272727;
+}
+#instra-pera, #Facebook-pera, #Most-selling-flowers-pera{
+    margin-top: 15px;
+    color: rgba(39, 39, 39, 0.60);
+}
+.instragram-img ,.Facebook-img, .Most-selling-flowers-img{
     display: flex;
     justify-content: space-around;
     margin: 40px 185px 0px 185px; 
     
 }
-.instragram-img img , .Facebook-img img{
+.instragram-img img , .Facebook-img img, .Most-selling-flowers-img img{
     height: 250px;
     width: 220px;
 
@@ -193,52 +213,48 @@ icon-pera div p{
 
 
 
-/* #subscribe-section{
-    width: 800px;
-    height: 449px;
-} */
-
-/* .subscribe-img{
-    margin-top: 65px;
-    height: 300px;
-    margin-left: 195px;
-    
-} */
-/* .subscribe-section{
-    padding: 0px 180px;
-    background-image: url("rectangle9.png");
-    background-color: #cccccc;
-    height: 400px;
-    background-position: center;
-    background-repeat: no-repeat;
-} */
-
-
-
-/* .subscribe-section{
-    background-image: url("rectangle9.png"); 
-  background-color: #cccccc;
-  height: 500px;
-  background-position: center; 
-  background-repeat: no-repeat; 
-  background-size: 990px; 
-  margin: 0px 180px 0px 180px;
-    
-      
-} */
-/* .subscribe-section{
+.container {
     position: relative;
+    max-width: 955px; /* Maximum width */
+    margin: 0 auto; /* Center it */
+  }
+  
+.container .content {
+    position: absolute; 
+    bottom: 0; 
+    color: black;
+    width: 100%; 
+    padding: 20px; 
+    text-align: center;
+    margin-bottom: 80px;
 }
-.love{
-    position: absolute;
-    top: 20px;
-} */
+.deals-desc{
+    font-size: 14px;
+    margin-top: 15px;
+    color: rgba(39, 39, 39, 0.60);
+}
+.email{
+    padding: 10px 250px 10px 10px;
+    margin-top: 25px;
+    border: 0px;
+    border-radius: 5px;
+}
+.Subscribe-btn{
+    padding: 10px 15px;
+    background-color: #E55473;
+    border-radius: 5px;
+    border: 0px;
+    margin-left: 5px;
+}
+
+  
 
 .footer{
     height: 400px;
     background-color: black;
     color: white;
     text-align: center;
+    margin-top: 60px;
     /* align-items: center */
     
 }
@@ -251,5 +267,10 @@ icon-pera div p{
     width: 520px;
     margin: 0 auto;
     margin-bottom: 20px;
+    color: rgba(255, 255, 255, 0.90);
     
+}
+.footer-pera-2{
+    color: rgba(255, 255, 255, 0.40);
+    font-size: 14px;
 }
