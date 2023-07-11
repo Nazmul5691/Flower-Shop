@@ -166,3 +166,25 @@ icon-pera div p{
 .deal-class{
     margin-top: 15px;
 }
+
+
+
+.instragram , .Facebook{
+    text-align: center;
+    margin-top: 60px;
+}
+.instragram-title , .Facebook-title{
+   width: 450px;
+   margin: 0 auto;
+   
+}
+.instragram-img ,.Facebook-img{
+    display: flex;
+    justify-content: space-around;
+    margin: 40px 185px 0px 185px; 
+    
+}
+.instragram-img img , .Facebook-img img{
+    height: 250px;
+    width: 220px;
+}
