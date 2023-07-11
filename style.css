@@ -187,4 +187,69 @@ icon-pera div p{
 .instragram-img img , .Facebook-img img{
     height: 250px;
     width: 220px;
+
+    margin-bottom: 65px;
+}
+
+
+
+/* #subscribe-section{
+    width: 800px;
+    height: 449px;
+} */
+
+/* .subscribe-img{
+    margin-top: 65px;
+    height: 300px;
+    margin-left: 195px;
+    
+} */
+/* .subscribe-section{
+    padding: 0px 180px;
+    background-image: url("rectangle9.png");
+    background-color: #cccccc;
+    height: 400px;
+    background-position: center;
+    background-repeat: no-repeat;
+} */
+
+
+
+/* .subscribe-section{
+    background-image: url("rectangle9.png"); 
+  background-color: #cccccc;
+  height: 500px;
+  background-position: center; 
+  background-repeat: no-repeat; 
+  background-size: 990px; 
+  margin: 0px 180px 0px 180px;
+    
+      
+} */
+/* .subscribe-section{
+    position: relative;
+}
+.love{
+    position: absolute;
+    top: 20px;
+} */
+
+.footer{
+    height: 400px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    /* align-items: center */
+    
+}
+
+.footer-heading{
+    padding-top: 150px;
+    margin-bottom: 20px;
+}
+.footer-pera{
+    width: 520px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    
 }
