@@ -15,10 +15,10 @@ body{
     border: 0px;
     border-radius: 5px;
 }
-.btn:hover{
+/* .btn:hover{
     border: gray 1px solid;
     cursor: pointer;
-}
+} */
 
 
 /* banner section start here */
@@ -90,9 +90,9 @@ body{
     width: 290px;
     
 }
-.featured-img-1:hover , .featured-img-2:hover, .featured-img-3:hover{
+/* .featured-img-1:hover , .featured-img-2:hover, .featured-img-3:hover{
     box-shadow: 3px 3px 5px lightblue;
-}
+} */
 
 .featured-img-2{
     background-color: #D9EFF1;
@@ -151,10 +151,10 @@ h5:hover{
     font-size: 14px;
     color: rgba(39, 39, 39, 0.80);
 }
-.icon-description p:hover{
+/* .icon-description p:hover{
     font-weight: bold;
     cursor: pointer;
-}
+} */
 
 .icon-image{
     height: 50px;
@@ -234,14 +234,14 @@ h5:hover{
 
     margin-bottom: 65px;
 }
-.hover-cls:hover{
+/* .hover-cls:hover{
     font-size: 25px;
     text-decoration: underline;
     cursor: pointer;
 }
 .img-hover-class:hover{
     box-shadow: 3px 3px 5px lightblue;
-}
+} */
 
 /* deals section2 start here */
 .container {
@@ -279,10 +279,10 @@ h5:hover{
     border: 0px;
     margin-left: 5px;
 }
-.Subscribe-btn:hover{
+/* .Subscribe-btn:hover{
     border: gray 1px solid;
     cursor: pointer;
-}
+} */
 
   
 /* footer start here  */
